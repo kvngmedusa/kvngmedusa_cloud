@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ============================================
+         META TAGS - Essential Information
+         ============================================ -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Professional AWS cloud project showcasing Amazon S3 static website hosting and CloudFront CDN distribution for global content delivery.">
+    <meta name="keywords" content="AWS, Amazon S3, CloudFront, Cloud Computing, Static Website, CDN, Web Hosting">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags (for social media sharing) -->
+    <meta property="og:title" content="AWS Static Website - S3 & CloudFront">
+    <meta property="og:description" content="Professional cloud infrastructure project using Amazon Web Services">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-cloudfront-url.cloudfront.net">
+    <meta property="og:image" content="https://your-cloudfront-url.cloudfront.net/images/preview.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AWS Static Website - S3 & CloudFront">
+    <meta name="twitter:description" content="Professional cloud infrastructure project">
+    
+    <!-- Page Title -->
+    <title>AWS Cloud Project | S3 + CloudFront Static Website</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Google Fonts - Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Structured Data for SEO (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "AWS Cloud Project",
+        "description": "Static website hosted on Amazon S3 and delivered via CloudFront CDN",
+        "url": "https://your-cloudfront-url.cloudfront.net"
+    }
+    </script>
+</head>
+
+<body>
+    <!-- ============================================
+         HEADER & NAVIGATION
+         ============================================ -->
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <h1><i class="fas fa-cloud"></i> CloudProject</h1>
+            </div>
+            
+            <ul class="nav-links" role="navigation" aria-label="Main navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#architecture">Architecture</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <!-- Mobile Menu Toggle (for future mobile menu) -->
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" style="display: none;">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ============================================
+         HERO SECTION
+         ============================================ -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-rocket"></i> AWS Cloud Infrastructure
+            </div>
+            
+            <h1 class="hero-title">
+                Welcome to the <span class="gradient-text">Future of Cloud</span>
+            </h1>
+            
+            <p class="hero-subtitle">
+                A professional static website hosted on <strong>Amazon S3</strong> 
+                and delivered globally via <strong>CloudFront CDN</strong> for 
+                blazing-fast performance worldwide
+            </p>
+            
+            <div class="hero-buttons">
+                <button class="cta-button cta-primary">
+                    <i class="fas fa-play-circle"></i> Explore Project
+                </button>
+                <button class="cta-button cta-secondary">
+                    <i class="fab fa-github"></i> View on GitHub
+                </button>
+            </div>
+            
+            <!-- Tech Stack Icons -->
+            <div class="tech-stack">
+                <div class="tech-item" title="Amazon S3">
+                    <i class="fab fa-aws"></i>
+                    <span>S3</span>
+                </div>
+                <div class="tech-item" title="CloudFront CDN">
+                    <i class="fas fa-network-wired"></i>
+                    <span>CloudFront</span>
+                </div>
+                <div class="tech-item" title="IAM Security">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>IAM</span>
+                </div>
+                <div class="tech-item" title="HTTPS/SSL">
+                    <i class="fas fa-lock"></i>
+                    <span>HTTPS</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FEATURES SECTION
+         ============================================ -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Why This Project?</span>
+                <h2>Key Features & Capabilities</h2>
+                <p class="section-description">
+                    Built with industry best practices and modern cloud architecture
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Lightning Fast</h3>
+                    <p>CloudFront CDN delivers content from 400+ edge locations worldwide, ensuring sub-second load times for users everywhere.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Global edge network</li>
+                        <li><i class="fas fa-check"></i> Automatic compression</li>
+                        <li><i class="fas fa-check"></i> HTTP/2 & HTTP/3</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Highly Secure</h3>
+                    <p>Implemented AWS IAM policies, bucket policies, and SSL/TLS encryption to protect data and ensure secure access.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> HTTPS encryption</li>
+                        <li><i class="fas fa-check"></i> Bucket policies</li>
+                        <li><i class="fas fa-check"></i> DDoS protection</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Highly Scalable</h3>
+                    <p>S3 automatically scales to handle millions of requests with 99.999999999% durability, ensuring your content is always available.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Auto-scaling</li>
+                        <li><i class="fas fa-check"></i> Unlimited storage</li>
+                        <li><i class="fas fa-check"></i> High availability</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <h3>Cost Effective</h3>
+                    <p>Pay only for what you use with S3's pricing model. No upfront costs, no server maintenance, just simple storage pricing.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Pay-per-use</li>
+                        <li><i class="fas fa-check"></i> No server costs</li>
+                        <li><i class="fas fa-check"></i> Free tier eligible</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Fully Responsive</h3>
+                    <p>Optimized for all devices with modern responsive design, ensuring perfect display on desktop, tablet, and mobile.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Mobile-first</li>
+                        <li><i class="fas fa-check"></i> Touch-friendly</li>
+                        <li><i class="fas fa-check"></i> Adaptive layouts</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Easy to Maintain</h3>
+                    <p>Static website architecture means no databases, no servers to patch, and simple content updates via S3 upload.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> No backend</li>
+                        <li><i class="fas fa-check"></i> Simple updates</li>
+                        <li><i class="fas fa-check"></i> Version control</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         ARCHITECTURE SECTION
+         ============================================ -->
+    <section id="architecture" class="architecture">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">How It Works</span>
+                <h2>Cloud Architecture</h2>
+                <p class="section-description">
+                    Understanding the infrastructure behind this website
+                </p>
+            </div>
+            
+            <div class="architecture-content">
+                <div class="architecture-diagram">
+                    <div class="arch-step reveal">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <i class="fas fa-user-circle"></i>
+                            <h4>User Request</h4>
+                            <p>User enters website URL in browser</p>
+                        </div>
+                    </div>
+                    
+                    <div class="arch-arrow">
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                    
+                    <div class="arch-step reveal">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <i class="fas fa-network-wired"></i>
+                            <h4>CloudFront CDN</h4>
+                            <p>Request routed to nearest edge location</p>
+                        </div>
+                    </div>
+                    
+                    <div class="arch-arrow">
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                    
+                    <div class="arch-step reveal">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <i class="fas fa-database"></i>
+                            <h4>Amazon S3 Bucket</h4>
+                            <p>Content retrieved from S3 origin</p>
+                        </div>
+                    </div>
+                    
+                    <div class="arch-arrow">
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                    
+                    <div class="arch-step reveal">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <i class="fas fa-check-circle"></i>
+                            <h4>Cached & Delivered</h4>
+                            <p>Content cached and served to user</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="architecture-details">
+                    <div class="detail-card reveal">
+                        <h4><i class="fas fa-info-circle"></i> Why CloudFront?</h4>
+                        <p>CloudFront caches content at edge locations closer to users, dramatically reducing latency and improving load times. With over 400 points of presence worldwide, your content is always close to your audience.</p>
+                    </div>
+                    
+                    <div class="detail-card reveal">
+                        <h4><i class="fas fa-lock"></i> Security First</h4>
+                        <p>All traffic is encrypted with HTTPS/TLS. Bucket policies restrict direct S3 access, ensuring content is only accessible through CloudFront. DDoS protection is built-in at no extra cost.</p>
+                    </div>
+                    
+                    <div class="detail-card reveal">
+                        <h4><i class="fas fa-chart-bar"></i> Performance Metrics</h4>
+                        <ul>
+                            <li><strong>Load Time:</strong> &lt; 1 second globally</li>
+                            <li><strong>Availability:</strong> 99.99% uptime SLA</li>
+                            <li><strong>Cache Hit Ratio:</strong> &gt; 90%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SERVICES SECTION
+         ============================================ -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">AWS Technologies</span>
+                <h2>Services Utilized</h2>
+                <p class="section-description">
+                    Leveraging powerful AWS services for optimal performance
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1: S3 -->
+                <div class="service-card reveal">
+                    <div class="service-header">
+                        <i class="fab fa-aws"></i>
+                        <h3>Amazon S3</h3>
+                    </div>
+                    <p class="service-description">
+                        Object storage service offering industry-leading scalability, data availability, security, and performance. Hosts all static assets.
+                    </p>
+                    <div class="service-features">
+                        <span class="badge">Static Hosting</span>
+                        <span class="badge">11 9's Durability</span>
+                        <span class="badge">Versioning</span>
+                    </div>
+                    <div class="service-stats">
+                        <div class="stat">
+                            <strong>99.999999999%</strong>
+                            <span>Durability</span>
+                        </div>
+                        <div class="stat">
+                            <strong>99.99%</strong>
+                            <span>Availability</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Service 2: CloudFront -->
+                <div class="service-card reveal">
+                    <div class="service-header">
+                        <i class="fas fa-globe"></i>
+                        <h3>CloudFront CDN</h3>
+                    </div>
+                    <p class="service-description">
+                        Fast content delivery network that securely delivers data, videos, applications, and APIs to customers globally with low latency.
+                    </p>
+                    <div class="service-features">
+                        <span class="badge">400+ PoPs</span>
+                        <span class="badge">HTTP/3</span>
+                        <span class="badge">DDoS Protection</span>
+                    </div>
+                    <div class="service-stats">
+                        <div class="stat">
+                            <strong>400+</strong>
+                            <span>Edge Locations</span>
+                        </div>
+                        <div class="stat">
+                            <strong>&lt;50ms</strong>
+                            <span>Global Latency</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Service 3: IAM -->
+                <div class="service-card reveal">
+                    <div class="service-header">
+                        <i class="fas fa-user-shield"></i>
+                        <h3>IAM Policies</h3>
+                    </div>
+                    <p class="service-description">
+                        Identity and Access Management controls who can access AWS resources. Implemented bucket policies for secure public read access.
+                    </p>
+                    <div class="service-features">
+                        <span class="badge">Bucket Policies</span>
+                        <span class="badge">Access Control</span>
+                        <span class="badge">Encryption</span>
+                    </div>
+                    <div class="service-stats">
+                        <div class="stat">
+                            <strong>100%</strong>
+                            <span>HTTPS Traffic</span>
+                        </div>
+                        <div class="stat">
+                            <strong>Zero</strong>
+                            <span>Security Incidents</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         STATISTICS SECTION
+         ============================================ -->
+    <section id="stats" class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card reveal">
+                    <i class="fas fa-server"></i>
+                    <div class="stat-number" data-target="400">0</div>
+                    <div class="stat-label">Edge Locations</div>
+                </div>
+                
+                <div class="stat-card reveal">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <div class="stat-number" data-target="99">0</div>
+                    <div class="stat-suffix">%</div>
+                    <div class="stat-label">Uptime SLA</div>
+                </div>
+                
+                <div class="stat-card reveal">
+                    <i class="fas fa-rocket"></i>
+                    <div class="stat-prefix">&lt;</div>
+                    <div class="stat-number" data-target="1">0</div>
+                    <div class="stat-suffix">s</div>
+                    <div class="stat-label">Load Time</div>
+                </div>
+                
+                <div class="stat-card reveal">
+                    <i class="fas fa-shield-alt"></i>
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-suffix">%</div>
+                    <div class="stat-label">Secure (HTTPS)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         TECH STACK SECTION
+         ============================================ -->
+    <section class="tech-stack-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Technologies Used</span>
+                <h2>Built With Modern Tools</h2>
+            </div>
+            
+            <div class="tech-grid">
+                <div class="tech-card reveal">
+                    <i class="fab fa-html5"></i>
+                    <h4>HTML5</h4>
+                </div>
+                <div class="tech-card reveal">
+                    <i class="fab fa-css3-alt"></i>
+                    <h4>CSS3</h4>
+                </div>
+                <div class="tech-card reveal">
+                    <i class="fab fa-js"></i>
+                    <h4>JavaScript</h4>
+                </div>
+                <div class="tech-card reveal">
+                    <i class="fab fa-aws"></i>
+                    <h4>AWS Cloud</h4>
+                </div>
+                <div class="tech-card reveal">
+                    <i class="fab fa-git-alt"></i>
+                    <h4>Git</h4>
+                </div>
+                <div class="tech-card reveal">
+                    <i class="fab fa-github"></i>
+                    <h4>GitHub</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CONTACT SECTION
+         ============================================ -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Get In Touch</span>
+                <h2>Contact Information</h2>
+                <p class="section-description">
+                    Let's connect and discuss cloud architecture
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item reveal">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:your.email@example.com">your.email@example.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item reveal">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item reveal">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">linkedin.com/in/yourprofile</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item reveal">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>Portfolio</h4>
+                            <a href="https://yourportfolio.com" target="_blank" rel="noopener">yourportfolio.com</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-cta reveal">
+                    <h3>About This Project</h3>
+                    <p>This static website demonstrates professional cloud architecture using AWS services. Built as part of my cloud computing journey to showcase skills in:</p>
+                    <ul class="skills-list">
+                        <li><i class="fas fa-check-circle"></i> AWS S3 Static Website Hosting</li>
+                        <li><i class="fas fa-check-circle"></i> CloudFront CDN Configuration</li>
+                        <li><i class="fas fa-check-circle"></i> IAM Policy Management</li>
+                        <li><i class="fas fa-check-circle"></i> Modern Web Development</li>
+                        <li><i class="fas fa-check-circle"></i> Performance Optimization</li>
+                    </ul>
+                    <button class="cta-button cta-primary">
+                        <i class="fab fa-github"></i> View Source Code
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-logo">
+                    <h3><i class="fas fa-cloud"></i> CloudProject</h3>
+                    <p>Professional AWS static website deployment</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#architecture">Architecture</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>AWS Services</h4>
+                    <ul>
+                        <li><a href="https://aws.amazon.com/s3/" target="_blank">Amazon S3</a></li>
+                        <li><a href="https://aws.amazon.com/cloudfront/" target="_blank">CloudFront</a></li>
+                        <li><a href="https://aws.amazon.com/iam/" target="_blank">IAM</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="https://github.com/kvngmedusa" target="_blank" rel="noopener" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/odunoye-ahmed-opeyemi-279a95222/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/_kvngmedusa" target="_blank" rel="noopener" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:odunoyeahmed@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="year">2026</span> AWS Cloud Project. Hosted on Amazon S3 & CloudFront CDN</p>
+                <p class="footer-tech">
+                    Built with <i class="fas fa-heart"></i> using 
+                    <span>HTML5</span> · <span>CSS3</span> · <span>JavaScript</span> · <span>AWS</span>
+                </p>
+            </div>
+        </div>
+        
+        <!-- Back to Top Button -->
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <!-- ============================================
+         JAVASCRIPT
+         ============================================ -->
+    <script src="js/script.js"></script>
+</body>
+</html>
